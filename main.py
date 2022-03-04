@@ -1,4 +1,4 @@
-from turtle import Turtle, Screen, distance
+from turtle import Turtle, Screen
 import random
 
 is_race_on = False
@@ -30,8 +30,8 @@ while is_race_on:
                 print(f"You've won! The {winning_colour} turtle won the race.")
             else:
                 print(f"You've lost! The {winning_colour} turtle won the race.")
-        distance = random.randint(0, 10)
-        turtle.forward(distance)
+        dist = random.randint(0, 10)
+        turtle.forward(dist)
         
 
 
